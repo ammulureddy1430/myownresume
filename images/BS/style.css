@@ -1,0 +1,111 @@
+
+.secondary {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* assignment-3*/
+.content {
+    background-color: rgb(241, 87, 31);
+    justify-content: center;
+    align-items: center;
+}
+.contentBody .email {
+width: 350px;
+border-radius: 4px;
+border: none;
+padding: 5px;
+}
+.bs {
+    background-color: rgb(202, 195, 195);
+    padding-top: 60px;
+}
+
+
+
+
+.jumbotron .card {
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: all 500ms;
+}
+.jumbotron .card:hover {
+    margin-top: -20px;
+}
+
+.icon {
+    color: #ff689b;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0 20px 0 -35px;
+}
+.jumbotron .card-body {
+    display: flex;
+    justify-content: left;
+}
+.square {
+    color: #e9bf06;
+}
+.file {
+    color: #3fcdc7;
+}
+.cont {
+    font-size: 15px;
+}
+
+.achievednum {
+    color: #49b5e7;
+    font-size: 44px;
+}
+.header {
+ background-image: url(../images/counts.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: 100%;
+ padding: 80px 0 60px 0;
+ position: relative;
+}
+.header::before {
+    content: "";
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.header .container {
+    z-index: 1;
+    position: relative;
+}
+
+
+img{
+width: 150px;
+transform: scale(0.85);
+filter: gray;
+filter: grayscale(1);
+}
+img:hover {
+    transform: scale(1);
+    filter: none;
+    transition: 0.3s;
+}
+.imgList {
+    margin: 20px 0 20px 0;
+}
+
+.iWhy a {
+    color: rgb(68, 67, 67);
+}
+.iWhy img {
+    width: 70px;
+    filter: none;
+    transform: none;
+}
+.iWhy .active {
+    color: rgb(114, 114, 212);
+}
