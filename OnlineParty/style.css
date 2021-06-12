@@ -1,0 +1,281 @@
+.bar {
+    text-align: center;
+    background-color: grey;
+}
+.bar a {
+    font-size: 35px;
+    color: aliceblue;
+    padding: 15px 10px 15px 10px;
+}
+.bar a:hover {
+    background-color:rgb(20, 20, 20);
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+h2 {
+    margin: 5px;
+}
+ul {
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+}
+.leftBar {
+    background-color: rgb(230, 225, 225);
+    margin: 10px 5px 5px 0px;
+    background-size: 25%;
+
+}
+.leftBar a {
+    margin: 2px;
+    padding: 2px;
+}
+.sideBar a {
+    color: rgb(20, 20, 20);
+}
+.sideBar a:hover {
+    background-color: rgb(196, 190, 190);
+}
+.content{
+    display: flex;
+}
+.box1 {
+    border: 2px solid red;
+    text-align: center;
+    padding: 2px;
+    margin: 10px 0px 0px 20px;
+}
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 1px;
+    padding: 5px;
+}
+.table {
+    margin-top: 10px;
+}
+.box{
+border: 1px solid rgb(197, 188, 188);
+margin: 10px;
+padding: 2px;
+}
+h2 , h3 {
+    text-align: center;
+    color: #c19700;
+    margin-left: 20px;
+}
+.boxInfo {
+    display: flex;
+}
+.footer {
+    background-color: #666;
+    display: flex;
+   margin-left: 0px;
+   padding-left: 20px;
+}
+.footerH {
+    color: white;
+    display: flex;
+    margin: 20px;
+}
+ ul {
+    color:white;
+    margin-left: 15px;
+}
+.footer p {
+    color: white;
+    margin: 20px;
+}
+
+.socialLinks {
+    margin-left: 10px;
+}
+.socialLinks a {
+  font-size: 18px;
+  padding: 8px;
+  color: white;
+  margin: 2px;
+  background-color: rgb(219, 182, 48);
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  text-align: center;
+}
+.socialLinks .facebook:hover {
+    background-color: rgb(59, 87, 144);
+}
+.socialLinks .twitter:hover {
+    background-color:  #1da1f2;;
+}
+.socialLinks .insta:hover {
+    background-color: #e4405f;;
+}
+.socialLinks .linkedIn:hover {
+ background-color: #0077B5;;
+}
+.navBar {
+    background-color: #970198;
+    padding: 20px;
+    margin-left: 10px;
+}
+.navBar ul ,li {
+    display: flex;
+    padding-left: 20px;
+    text-align: center;
+}
+.imageL {
+    margin-left: 10px;
+}
+.footerImg {
+    margin-left: 18px;
+}
+.borderBox {
+
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+
+
+}
+.borderBox .box1 {
+    border-color: rgb(22, 21, 21) ;
+    background-color: rgb(22, 21, 21);
+    width: 25%;
+    border-radius: 8px;
+    display: flex;
+    text-align: center;
+   margin : 5px;
+
+}
+.borderBox h3 {
+    margin-left: 5px;
+
+}
+.borderBox p {
+    color: #c19700;
+  margin-left: 30px;
+
+}
+.truck {
+    color: rgb(207, 28, 58);
+    margin: 30px 0 0 10px;
+    font-size: 30px;
+}
+.cal {
+    color: #93c260;
+    margin: 30px 0 0 10px;
+    font-size: 40px;
+
+}
+.credit {
+    color:#1d89ba;
+    margin: 30px 0 0 10px;
+    font-size: 40px;
+}
+.comments {
+    color: #fcb800;
+    margin: 30px 0 0 10px;
+    font-size: 40px;
+}
+.info  {
+    margin-left: 20px;
+}
+.contentImg {
+    display: flex;
+}
+.leftContentImg{
+    margin:50px 0 0 50px;
+}
+.rightContentImg {
+    padding: 25px 0 20px 0;
+    margin: 30px 0 20px 30px;
+    display: flex;
+}
+.leftImg {
+    margin-left: 40px;
+}
+.rightImg {
+margin-left: 20px;
+padding-bottom: 20px;
+}
+
+.contents {
+    border:1px solid rgb(218, 203, 177);
+    margin-bottom: 30px;
+}
+/*start of form*/
+.regForm {
+  border: 1px solid black;
+  text-align: center;
+  width: 350px;
+  height: 250px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.formRow {
+    margin-bottom: 10px;
+}
+.regForm h2{
+    color: black;
+}
+/*end of form*/
+
+
+/*start of css */
+.nav {
+    border: 1px solid #4CAF50;
+    background-color: #4CAF50;
+    color:white;
+    text-align: left;
+    border-radius: 4px;
+}
+.nav p {
+    margin-left: 20px;
+}
+.cssLeftSide {
+    text-align: left;
+    border: 1px solid whitesmoke;
+    margin: 10px 0 10px 0;
+    border-radius: 4px;
+}
+.cssLeftSide h3 {
+    height: 25px;
+    width: 120px;
+    padding:0 10px 0 0;
+}
+.cssContent {
+    display: flex;
+}
+.cssPage h2,h3 {
+    text-align: left;
+    color: black;
+}
+.cssContent p {
+    margin-left: 20px;
+}
+.cssPage {
+    display: flex;
+}
+.cssRightContent {
+    border: 1px solid #32a4e7;
+    background-color: #32a4e7;
+    border-radius: 4px;
+    margin: 10px 0 0 90px;
+    padding: 10px;
+}
+.cssFooter {
+    border: 1px solid #d4d4d4;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    padding-left: 30px;
+    text-align: center;
+}
+.side .cssLeftSide:hover {
+    background-color: green;
+    color:white;
+}
+.cssRightContent h3 {
+    text-align: left;
+}
